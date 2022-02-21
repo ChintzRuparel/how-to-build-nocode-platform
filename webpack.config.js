@@ -12,7 +12,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     proxy: {
-      '/api': 'http://localhost:8000'
+      '/api': 'http://lo  calhost:8000'
     },
     host: '0.0.0.0',
     allowedHosts: 'all',
